@@ -18,6 +18,7 @@ stage("build app")
 {
 
 steps{
+dir("hrms")
 script{
 sh "npm install"
 sh "npm run build"
