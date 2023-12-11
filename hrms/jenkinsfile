@@ -30,7 +30,15 @@ sh "npm run build"
 }
 
 }
-
+stage("uild image"){
+steps{
+dir("hrms"){
+script{
+sh "docker build -t gopi ."
+}
+}
+}
+}
 
 
 }
