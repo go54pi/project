@@ -13,5 +13,22 @@ git branch: 'main', url: 'https://github.com/go54pi/hrms-demo.git'
 }
 
 
+
+stage("build app")
+{
+
+steps{
+script{
+sh "npm install"
+sh "npm run build"
+
+}
+
+}
+
+}
+
+
+
 }
 }
