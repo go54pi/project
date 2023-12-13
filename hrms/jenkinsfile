@@ -6,7 +6,7 @@ stages {
 
 stage("intigration"){
 steps {
-git branch: 'main', url: 'https://github.com/go54pi/hrms-demo.git'
+git branch: 'main', url: 'https://github.com/go54pi/project.git'
 
 }
 
